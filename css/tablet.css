@@ -1,0 +1,289 @@
+@media screen and (max-width: 850px) and (min-width: 426px) {
+    ul .nav-title,
+    ul img {
+        display: none;
+    }
+
+    nav a {
+        padding: 20px 30px;
+    }
+
+    .title {
+        top: 20%;
+    }
+
+    #desc {
+        top: 26%;
+    }
+
+    .project-general img {
+        height: 413px;
+    }
+
+    #project ul {
+        display: block;
+    }
+
+    #project {
+        padding-left: 10px;
+    }
+
+    .display {
+        display: block;
+    }
+    
+    #certificate {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    #certificate h2 {
+        padding-left: 40px;
+    }
+
+    .list {
+        padding-left: 0;
+    }
+
+    .desc-1 {
+        width: 110px;
+    }
+
+    .desc-2 {
+        padding-right: 10px;
+    }
+
+    .margin-1 {
+        margin-bottom: 0;
+    }
+
+    .margin-2 {
+        margin-top: 0;
+        margin-left: 50px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    #certificate img {
+        width: 200px;
+        height: 100px;
+        display: flex;
+    }
+
+    .certz, 
+    .cert-3 {
+        padding-left: 100px;
+    }
+
+    #certificate ul {
+        padding-left: 10px;
+    }
+
+    .hr {
+        margin: 8px 50px;
+    }
+
+    .cert-2 {
+        width: 50%;
+    }
+
+    .present {
+        left: 310px;
+    }
+
+    .text-small {
+        font-size: smaller;
+    }
+
+    .cert-title {
+        font-size: small;
+        margin-top: 10px;
+    }
+
+    #general {
+        display: flex;
+        width: 45%;
+        padding-left: 50px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #general2 {
+        display: flex;
+        width: 45%;
+        flex-direction: column;
+        padding-left: 50px;
+        gap: 10px;
+    }
+
+    .skills {
+        display: flex;
+    }
+
+    .project-general {
+        margin-left: 65px;
+        width: 80%;
+    }
+
+    .proj-list {
+        display: grid;
+        padding-left: 0;
+        gap: 5px;
+    }
+
+    footer ul {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    footer li:first-child {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 960px) and (min-width: 851px) {
+    ul .nav-title,
+    ul img {
+        display: none;
+    }
+
+    nav a {
+        padding: 20px 30px;
+    }
+
+    .title {
+        top: 20%;
+    }
+
+    #desc {
+        top: 26%;
+    }
+
+    .project-general img {
+        height: 507px;
+    }
+
+    #project ul {
+        display: block;
+    }
+
+    #project {
+        padding-left: 10px;
+    }
+
+    .display {
+        display: block;
+    }
+    
+    #certificate {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .certz .cert-3 {
+        padding-left: 120px;
+    }
+
+    #certificate h2 {
+        padding-left: 40px;
+    }
+
+    .list {
+        padding-left: 0;
+    }
+
+    .desc-1 {
+        width: 110px;
+    }
+
+    .desc-2 {
+        padding-right: 10px;
+    }
+
+    .margin-1 {
+        margin-bottom: 0;
+    }
+
+    .margin-2 {
+        margin-top: 0;
+        margin-left: 50px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    #certificate img {
+        width: 300px;
+        height: 200px;
+        display: flex;
+    }
+
+    #certificate ul {
+        padding-left: 0;
+    }
+
+    .hr {
+        margin: 8px 50px;
+    }
+
+    .cert-2 {
+        width: 50%;
+    }
+
+    .present {
+        left: 310px;
+    }
+
+    .text-small {
+        font-size: smaller;
+    }
+
+    .cert-title {
+        font-size: small;
+        margin-top: 10px;
+    }
+
+    #general {
+        display: flex;
+        width: 40%;
+        padding-left: 120px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #general2 {
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+        padding-left: 120px;
+        gap: 10px;
+    }
+
+    .skills {
+        display: flex;
+    }
+
+    .project-general {
+        margin-left: 100px;
+        width: 80%;
+    }
+
+    .proj-list {
+        display: grid;
+        padding-left: 0;
+        gap: 5px;
+    }
+
+    footer ul {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    footer li:first-child {
+        margin-left: 0;
+    }
+}

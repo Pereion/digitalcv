@@ -1,0 +1,413 @@
+@media screen and (max-width: 1440px) and (min-width: 1201px) {
+    ul .nav-title,
+    ul img {
+        display: none;
+    }
+
+    nav a {
+        padding: 20px 30px;
+    }
+
+    .title {
+        top: 20%;
+    }
+
+    #desc {
+        top: 26%;
+    }
+
+    .project-general img {
+        height: 213px;
+    }
+
+    #project ul {
+        display: block;
+    }
+
+    #project {
+        padding-left: 0;
+    }
+
+    .display {
+        display: block;
+    }
+    
+    #certificate {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    #certificate h2 {
+        padding-left: 40px;
+    }
+
+    .list {
+        padding-left: 0;
+    }
+
+    .desc-1 {
+        width: 110px;
+    }
+
+    .desc-2 {
+        padding-right: 10px;
+    }
+
+    .margin-1 {
+        margin-bottom: 0;
+    }
+
+    .margin-2 {
+        margin-top: 0;
+        margin-left: 50px;
+    }
+
+    .flex {
+        flex-direction: row;
+    }
+
+    #certificate img {
+        width: 220px;
+        height: 100px;
+        display: flex;
+    }
+
+    .certz {
+        padding-left: 200px;
+    }
+
+    .cert-3 {
+        padding-left: 200px;
+    }
+
+    #certificate ul {
+        padding-left: 10px;
+    }
+
+    .hr {
+        margin: 8px 50px;
+    }
+
+    .cert-2 {
+        width: 50%;
+    }
+
+    .present {
+        left: 310px;
+    }
+
+    .text-small {
+        font-size: smaller;
+    }
+
+    .cert-title {
+        font-size: small;
+        margin-top: 10px;
+    }
+
+    #general {
+        width: 30%;
+        padding-left: 200px;
+        flex-direction: row;
+        gap: 30px;
+        grid-template-columns: auto auto 1fr;
+
+    }
+
+    #general2 {
+        flex-direction: row;
+        padding-left: 200px;
+        grid-template-columns: auto auto 1fr;
+        gap: 30px;
+    }
+
+    .project-general {
+        width: 40%;
+    }
+
+    .proj-list {
+        padding-left: 0;
+        gap: 20px;
+    }
+
+    footer ul {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    footer li:first-child {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+    ul .nav-title,
+    ul img {
+        display: none;
+    }
+
+    nav a {
+        padding: 20px 30px;
+    }
+
+    .title {
+        top: 20%;
+    }
+
+    #desc {
+        top: 26%;
+    }
+
+    .project-general img {
+        height: 213px;
+    }
+
+    #project ul {
+        display: block;
+    }
+
+    #project {
+        padding-left: 10px;
+    }
+
+    .display {
+        display: block;
+    }
+    
+    #certificate {
+        padding-left: 30px;
+        width: 100%;
+    }
+
+    #certificate h2 {
+        padding-left: 40px;
+    }
+
+    .list {
+        padding-left: 75px;
+    }
+
+    .desc-1 {
+        width: 110px;
+    }
+
+    .desc-2 {
+        padding-right: 10px;
+    }
+
+    .margin-1 {
+        margin-bottom: 0;
+    }
+
+    .margin-2 {
+        margin-top: 0;
+        margin-left: 50px;
+    }
+
+    .flex {
+        flex-direction: row;
+    }
+
+    #certificate img {
+        width: 200px;
+        height: 100px;
+        display: flex;
+    }
+
+    #certificate ul {
+        padding-left: 10px;
+    }
+
+    .hr {
+        margin: 8px 50px;
+    }
+
+    .cert-2 {
+        width: 50%;
+    }
+
+    .present {
+        left: 310px;
+    }
+
+    .text-small {
+        font-size: smaller;
+    }
+
+    .cert-title {
+        font-size: small;
+        margin-top: 10px;
+    }
+
+    #general {
+        width: 30%;
+        padding-left: 90px;
+        flex-direction: row;
+        gap: 10px;
+        grid-template-columns: auto auto 1fr;
+
+    }
+
+    #general2 {
+        flex-direction: row;
+        padding-left: 90px;
+        grid-template-columns: auto auto 1fr;
+        gap: 10px;
+    }
+
+    .project-general {
+        width: 315px;
+    }
+
+    .proj-list {
+        padding-left: 80px;
+        gap: 50px;
+    }
+
+    footer ul {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    footer li:first-child {
+        margin-left: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 961px) {
+    ul .nav-title,
+    ul img {
+        display: none;
+    }
+
+    nav a {
+        padding: 20px 30px;
+    }
+
+    .title {
+        top: 20%;
+    }
+
+    #desc {
+        top: 26%;
+    }
+
+    .project-general img {
+        height: 213px;
+    }
+
+    #project ul {
+        display: block;
+    }
+
+    #project {
+        padding-left: 10px;
+    }
+
+    .display {
+        display: block;
+    }
+    
+    #certificate {
+        padding-left: 30px;
+        width: 100%;
+    }
+
+    #certificate h2 {
+        padding-left: 40px;
+    }
+
+    .list {
+        padding-left: 5px;
+    }
+
+    .desc-1 {
+        width: 110px;
+    }
+
+    .desc-2 {
+        padding-right: 10px;
+    }
+
+    .margin-1 {
+        margin-bottom: 0;
+    }
+
+    .margin-2 {
+        margin-top: 0;
+        margin-left: 50px;
+    }
+
+    .flex {
+        flex-direction: row;
+    }
+
+    #certificate img {
+        width: 200px;
+        height: 100px;
+        display: flex;
+    }
+
+    #certificate ul {
+        padding-left: 10px;
+    }
+
+    .hr {
+        margin: 8px 50px;
+    }
+
+    .cert-2 {
+        width: 50%;
+    }
+
+    .present {
+        left: 310px;
+    }
+
+    .text-small {
+        font-size: smaller;
+    }
+
+    .cert-title {
+        font-size: small;
+        margin-top: 10px;
+    }
+
+    #general {
+        width: 30%;
+        padding-left: 20px;
+        flex-direction: row;
+        gap: 10px;
+        grid-template-columns: auto auto 1fr;
+
+    }
+
+    #general2 {
+        flex-direction: row;
+        padding-left: 20px;
+        grid-template-columns: auto auto 1fr;
+        gap: 10px;
+    }
+
+    .project-general {
+        margin-left: 5px;
+        width: 315px;
+    }
+
+    .proj-list {
+        padding-left: 0;
+        gap: 10px;
+    }
+
+    footer ul {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    footer li:first-child {
+        margin-left: 0;
+    }
+}

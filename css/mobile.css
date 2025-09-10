@@ -1,0 +1,173 @@
+@media screen and (max-width: 425px) {
+    ul .nav-title,
+    ul img {
+        display: none;
+    }
+
+    nav a {
+        padding: 20px 30px;
+        border: 0;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        justify-self: center;
+    }
+
+    #info {
+        flex-direction: column;
+    }
+
+    .target, 
+    .info {
+        width: 100%;
+    }
+
+    .title {
+        top: 10%;
+        font-size: x-large;
+    }
+
+    #desc {
+        top: 14%;
+    }
+
+    .project-general img {
+        height: 213px;
+    }
+
+    #project ul {
+        display: block;
+    }
+
+    #project {
+        padding-left: 0;
+    }
+
+    #project h2 {
+        margin-left: 0;
+        justify-self: center;
+    }
+
+    .display {
+        display: block;
+    }
+    
+    #certificate {
+        padding-left: 30px;
+        width: 100%;
+    }
+
+    .certz {
+        margin-left: 70px;
+        flex-direction: column;
+    }
+
+    #certificate h2 {
+        padding-left: 40px;
+    }
+
+    .list {
+        padding-left: 0;
+    }
+
+    .desc-1 {
+        width: 110px;
+    }
+
+    .desc-2 {
+        padding-right: 10px;
+    }
+
+    .margin-1 {
+        margin-bottom: 0;
+    }
+
+    .margin-2 {
+        margin-top: 0;
+        margin-left: 50px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    #certificate img {
+        width: 200px;
+        height: 100px;
+        display: flex;
+    }
+
+    #certificate ul {
+        padding-left: 10px;
+    }
+
+    .hr {
+        display: none;
+        margin-left: 0;
+        margin: 8px;
+    }
+
+    .cert-3 {
+        margin-left: 70px;
+    }
+
+    .cert-2 {
+        width: 50%;
+    }
+
+    .present {
+        left: 310px;
+    }
+
+    .text-small {
+        font-size: smaller;
+    }
+
+    .cert-title {
+        font-size: small;
+        margin-top: 10px;
+    }
+
+    #general {
+        display: flex;
+        width: 45%;
+        padding-left: 50px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #general2 {
+        display: flex;
+        width: 45%;
+        flex-direction: column;
+        padding-left: 50px;
+        gap: 10px;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-general {
+        margin-left: 50px;
+        width: 80%;
+    }
+
+    .proj-list {
+        display: grid;
+        padding-left: 0;
+        gap: 0;
+    }
+
+    footer ul {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    footer li:first-child {
+        margin-left: 0;
+    }
+}
