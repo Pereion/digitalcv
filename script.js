@@ -34,17 +34,7 @@ function unlock() {
 
 for (let i = 0; i < general.length; i++) {
     general[i].addEventListener('click', function () {
-        // Ẩn tất cả các chi tiết khác
-        for (let j = 0; j < general.length; j++) {
-            if (j !== i) {
-                const otherDetails = general[j].querySelector('.collapse');
-                otherDetails.style.display = 'none';
-                const otherExpandBtn = general[j].querySelector('.expand');
-                otherExpandBtn.innerHTML = '<span class="icon-down-circled">Details</span>';
-                general[j].style.height = '200px';
-            }
-        }
-        // Chuyển đổi hiển thị chi tiết của mục hiện tại
+        // Toggle collapse/expand for the current item
         const details = this.querySelector('.collapse');
         const expandBtn = this.querySelector('.expand');
         if (details.style.display === 'block') {
@@ -63,7 +53,7 @@ function expand() {
     const expandText = document.querySelector('.expand-text');
     if (expandText.style.display === 'block') {
         expandText.style.display = 'none';
-        this.innerHTML = '<span class="icon-down-circled">Details</span>';
+        expandButton.innerHTML = '<span class="icon-down-circled">Details</span>';
     } else {
         expandText.style.display = 'block';
         this.innerHTML = '<span class="icon-up-circled">Hide Details</span>';
